@@ -1,0 +1,106 @@
+body, html {
+	font-size: 20px !important;
+	font-family: 'Roboto', sans-serif;
+	color: #757575; /* GRAY */
+}
+
+.image-span {
+	position: absolute;
+
+	left: 0;
+	display: block;
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	border-radius: 50%;
+
+	-webkit-animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;
+    animation: textanim cubic-bezier(0, 1.8, 1, 1.8) .2s forwards;
+}
+
+.image-span:hover {
+	
+}
+
+.token-field .token span span span span.keyword {
+	font-weight: 900;
+	color: #757575; /* GRAY */
+}
+
+.image-span.dog {
+	background-image: url('../assets/images/dog.jpg');
+}
+.image-span.cat {
+	background-image: url('../assets/images/cat.jpg');
+}
+.image-span.cool {
+	background-image: url('../assets/images/cool.jpg');
+}
+.image-span.fun {
+	background-image: url('../assets/images/fun.jpg');
+	background-size: cover;
+}
+.image-span.gold {
+	background-image: url('../assets/images/gold.jpg');
+}
+.image-span.running {
+	background-image: url('../assets/images/running.jpg');
+}
+.image-span.super {
+	background-image: url('../assets/images/super.jpg');
+}
+.image-span.tree {
+	background-image: url('../assets/images/tree.jpg');
+}
+.image-span.pirate {
+	background-image: url('../assets/images/pirate.jpg');
+}
+
+
+
+.image-span.none {
+	display: none;
+}
+.image-span-wrapper {
+	position: relative;
+}
+
+textarea {
+	width: 100%;
+	height: 50%;
+	font-size: 20px;
+	color: red;
+	border: none;
+}
+
+/*					 */
+/* TEXT AREA WRAPPER */
+/*					 */
+
+.textarea-wrapper {
+	margin-top: 150px;
+	width: 100%;
+}
+
+.textarea {
+	color: red !important;
+	line-height: 150%;
+	font-size: 1.5em;
+}
+
+
+
+/*				 */
+/*  CSS ANIMATE  */
+/*				 */
+
+@-webkit-keyframes textanim {
+    from {top: 0; width: 0; height: 0; opacity: 0;}
+    to {top: -80px; width: 60px; height: 60px; opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes textanim {
+    from {top: 0; width: 0; height: 0; opacity: 0;}
+    to {top: -80px; width: 60px; height: 60px; opacity: 1;}
+}
