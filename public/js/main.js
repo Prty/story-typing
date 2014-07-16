@@ -12,5 +12,6 @@ var observed_WORDS = [
 	'running',
 	'super',
 	'cool',
-	'pirate'
+	'pirate',
+	'treasure'
 ];
